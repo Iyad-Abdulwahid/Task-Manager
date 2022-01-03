@@ -6,11 +6,7 @@ Make sure to set up your project following the steps listed in this document.
 - [Storing API Keys Outside of Github](#storing-api-keys-outside-of-github)
   - [Creating Variables in .env Files](#creating-variables-in-env-files)
   - [Using an Environment Variable in JavaScript](#using-an-environment-variable-in-javascript)
-- [Deploying React Apps on Heroku](#deploying-react-apps-on-heroku)
-  - [Setting Up Your Heroku Account](#setting-up-your-heroku-account)
-  - [Configure Your Project on Heroku](#configure-your-project-on-heroku)
-  - [Configuring API Keys on Heroku](#configuring-api-keys-on-heroku)
-  - [Deploying Your App](#deploying-your-app)
+- [Deploying React Apps on Netlify](#deploying-react-apps-on-netlify)
 
 ## Scaffold Your Project
 
