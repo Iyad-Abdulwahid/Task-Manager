@@ -17,7 +17,7 @@ We'll be evaluating your projects against the following **hard** requirements:
 3. It must use at least 4 separate components.
 4. It must be deployed to the Web.
 5. It uses CSS Flexbox or Grid for layout strategies and is not dependent on floats, position or tables.
-6. Your project repository must adequately document your project and include a line to the deployed app.
+6. Your project repository must adequately document your project and include a link to the deployed app.
 7. You must use Git for version control throughout the project.
 
 Additionally, if your project contains any navigation features, you must use **React Router** for them.
@@ -42,10 +42,9 @@ We will determine whether or not you've met the requirements using the following
   - Each request must handle errors by displaying a message to the user and must not log the error to the console.
   - The data returned from the API must be used in the application.
 - [ ] **Have at least 4 separate components.**
-  - It may use class-based components or hooks for stateful components.
-  - It must use stateless (function) and stateful (class) components appropriately.
+  - It may use hooks for stateful components.
 - [ ] **Be deployed to the Web.**
-  - It must be accessible as an application on the Web. (_see_ [Deploying React Apps on Heroku](project-setup-and-deployment-guide.md#deploying-react-apps-on-heroku))
+  - It must be accessible as an application on the Web. (_see_ [Deploying React Apps on Netlify](project-setup-and-deployment-guide.md#deploying-react-apps-on-netlify))
   - It must separately have a public **GitHub** repository containing your code.
   - You must not commit your API keys to Github. (_see_ [Storing API Keys Outside of Github](project-setup-and-deployment-guide.md#storing-api-keys-outside-of-github))
 - [ ] **Use Flexbox or CSS Grid for layouts.**
@@ -121,6 +120,11 @@ Tokens are redeemable during office hours or as determined by your Squad Lead ou
 
 An instructor will be assigned to each engineer as their squad lead and will check in with you briefly every day (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
 
+**Note:** 
+
+- All students are required to use at least one of their tokens by 5 pm ET on Thursday, 1/6 during in-class office hours
+- Tyler will continue to hold office hours in the evenings/Sunday, which are token-free. However, you WILL be required to submit a troubleshooting issue before requesting project-related debugging (see next section for more info on troubleshooting issues!)
+
 #### Github Issues
 
 We strongly encourage you to file a Github issue in this repository prior to using your tokens. **Learning to communicate effectively about issues in your code essential skill as a developer.**
@@ -129,13 +133,13 @@ We strongly encourage you to file a Github issue in this repository prior to usi
 
 Once you've submitted your issue, an instructor may:
 
-- Ask for further clarification about the issue or what you've tried on your own.
+- Ask for further clarification about the issue or what you've tried on your own via issues comments or Slack.
 - Provide you with links to a probable solution for you to try.
 - Provide you with example code.
 - Give you guidance on solving your issue.
 - Recommend that you meet for a one on one to resolve your issue in person.
 
-Once your issue has been resolved, make sure you Close the issue.
+Once your issue has been resolved, you or an instructor may close the issue.
 
 ## Approach
 
