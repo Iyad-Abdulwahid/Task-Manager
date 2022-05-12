@@ -16,11 +16,10 @@ We'll be evaluating your projects against the following **hard** requirements:
 2. It must include data from a third-party API.
 3. It must use at least 4 separate components.
 4. It must be deployed to the Web.
-5. It uses CSS Flexbox or Grid for layout strategies and is not dependent on floats, position or tables.
+5. It must be responsive across mobile, tablet, and desktop screens, and use CSS Flexbox or Grid for layout strategies (i.e., it is not dependent on floats or tables for layout concerns).
 6. Your project repository must adequately document your project and include a link to the deployed app.
 7. You must use Git for version control throughout the project.
-
-Additionally, if your project contains any navigation features, you must use **React Router** for them.
+8. If your project contains any navigation features, you must use **React Router** for them.
 
 ### Requirements Criteria
 
