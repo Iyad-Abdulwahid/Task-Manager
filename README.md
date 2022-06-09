@@ -64,7 +64,7 @@ We will determine whether or not you've met the requirements using the following
     - It should not depend solely on the browser's navigation buttons.
 
 > ### :triangular_flag_on_post: IMPORTANT:
-> To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository or on GitHub Enterprise.
+> To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository.
 
 ## Pre-Project Deliverable (Required)
 
@@ -121,8 +121,8 @@ An instructor will be assigned to each engineer as their squad lead and will che
 
 **Note:** 
 
-- All students are required to use at least one of their tokens by 5 pm ET on Thursday, 1/6 during in-class office hours
-- Tyler will continue to hold office hours in the evenings/Sunday, which are token-free. However, you WILL be required to submit a troubleshooting issue before requesting project-related debugging (see next section for more info on troubleshooting issues!)
+- All students are required to use at least one of their tokens by the end of the second full project work day.
+- Our class TA will continue to hold office hours in the evenings/Sunday, which are token-free. However, you are encouraged to submit a troubleshooting issue before requesting project-related debugging (see next section for more info on troubleshooting issues!)
 
 #### Github Issues
 
