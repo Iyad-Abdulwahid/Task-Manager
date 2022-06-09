@@ -95,7 +95,14 @@ While you must incorporate data from an API, you are **not required** to use any
 
 ### Choosing an API
 
-The most important choice you can make for a smooth project week is a solid, well-documented, free API. Use this [CodePen](https://codepen.io/esin87/pen/zYzdxbW?editors=0011) to make sure you can get back data from your API wtihout any CORS errors or paywall issues. 
+The most important choice you can make for a smooth project week is a solid, well-documented, free API. Use this [CodePen](https://codepen.io/esin87/pen/zYzdxbW?editors=0011) to make sure you can get back data from your API without any CORS errors or paywall issues. 
+
+To recap, your API should: 
+
+- Be free
+- Not have paywalls
+- Not use oauth 
+- And work in the above codepen (allow CORS)
 
 ## Getting Unstuck
 
