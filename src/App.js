@@ -5,27 +5,47 @@ import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
 
 const App = () => {
-  const [showAddTask, setShowAddTask] = useState(false)
-  const [tasks, setTasks] = useState([])
-  
+
   useEffect(() => {
     const getQuotes = async () =>{
       const quotesFromApi = await fetchQuotes()
-      setTasks(quotesFromApi)
+      setQuotes(quotesFromApi)
     }
     getQuotes()
-  },)
+  },[])
   const fetchQuotes = async () => {
     const res = await fetch("https://inspirational-quotes-api.herokuapp.com/quotes")
     const data = await res.json()
     console.log(data)
     return data
   }
+
+
+
+  // useEffect((async () => {
+  //   const res = await fetch("https://inspirational-quotes-api.herokuapp.com/quotes");
+  //   const data = await res.json();
+  //   const [item] = data.quotes;
+  //   setQuote(item);
+  // }, []));
+
+  // return (
+  //   <div>
+  //     {quote && <h1>{quote.source}</h1>}
+  //   </div>
+  // );
+
+  const [quotes, setQuotes] = useState([])
+
+  const [showAddTask, setShowAddTask] = useState(false)
+  const [tasks, setTasks] = useState([])
+  
+
   
   // Add Task
   const addTask = (task) => {
     const id = Math.floor(Math.random() * 10000) + 1
-    const newTask = { id, ...task }
+    const newTask = { id, ...task, 'quote':quotes[Math.floor(Math.random() * quotes.length)].quote }
     setTasks([...tasks, newTask])
   }
   
@@ -44,37 +64,6 @@ const App = () => {
       )
     }
     
-    // constructor(props);{
-    //   (props);
-    //   this.state = {
-    //     items: [],
-    //     isLoaded: false,
-    //   }
-    // }
-  
-    // componentDidMount();{
-    //   fetch("https://inspirational-quotes-api.herokuapp.com/quotes")
-    //     .then(res => res.json())
-    //     .then(json => {
-    //       this.state({
-    //         isLoaded: true,
-    //         items: json,
-    //       })
-    //     });
-    // }
-    // var { isLoaded, items } = this.state;
-    // if (!isLoaded) {
-    //   return <div>Loading...</div>;
-    // } else { return (
-    //   <div>
-    //   <ul>
-    //     {items.map(item => (item => (
-    //       <li key= {item.id}>
-    //         {item.quote} - {item.source}
-    //       </li>
-    //     ))};
-    //   </ul>
-    //   </div>
 
     return (
       <Router>

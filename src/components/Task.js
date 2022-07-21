@@ -1,6 +1,7 @@
 import { FaTimes } from 'react-icons/fa'
 
 const Task = ({ task, onDelete, onToggle }) => {
+    console.log(task)
 return (
     <div
     className={`task ${task.reminder && 'reminder'}`}
@@ -14,6 +15,7 @@ return (
         />
     </h3>
     <p>{task.day}</p>
+    <p><em>"{task.quote}"</em></p>
     </div>
 )
 }
