@@ -21,20 +21,6 @@ const App = () => {
   }
 
 
-
-  // useEffect((async () => {
-  //   const res = await fetch("https://inspirational-quotes-api.herokuapp.com/quotes");
-  //   const data = await res.json();
-  //   const [item] = data.quotes;
-  //   setQuote(item);
-  // }, []));
-
-  // return (
-  //   <div>
-  //     {quote && <h1>{quote.source}</h1>}
-  //   </div>
-  // );
-
   const [quotes, setQuotes] = useState([])
 
   const [showAddTask, setShowAddTask] = useState(false)
